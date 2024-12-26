@@ -1,0 +1,8 @@
+output(ELF64)
+test:
+    string msg1 = "hello world!"
+    call stdout msg1
+    ret
+_main:
+	lc test
+	exit 0 

@@ -1,0 +1,12 @@
+output(ELF64)
+final:
+    string msg = "shoulnt print"
+    call stdout msg
+    exit 1
+_main:
+	int a = 3
+	int b = 2
+	int c = 0
+	equal c a b
+    lc final c
+	exit 0
