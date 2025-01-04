@@ -1,0 +1,8 @@
+output(ELF64)
+
+_main:
+	Array arr = 4.1.2.3.4.5
+	int a = 0
+    int b = 1
+    a = arr b
+	exit a
